@@ -44,6 +44,8 @@ Portanto, o modelo desenvolvido será o seguinte:
 **Documentação das Interfaces**
 Todo o aplicativo foi desenvolvido utilizando o site http://ai2.appinventor.mit.edu que possibilita a criação de aplicativos para Android via Browser(navegador de internet), de forma simplificada, apenas arrastando os ícones das telas, e toda a programação é feita através de blocos pré definidos de códigos.
 O projeto da aplicação desenvolvida está disponível neste repositório, com o nome app_inventor_projeto.aia, para abri-lo basta acessa o site, logar com seu usuário, e importar este arquivo.
+- Também esta disponível no repositório o apk do aplicativo, arduino_bluetooth.apk.
+
 - Segue algumas imagens:
 
 ![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/appinventor.png)
