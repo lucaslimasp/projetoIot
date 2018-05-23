@@ -33,3 +33,10 @@ Portanto, o modelo desenvolvido será o seguinte:
 - Tag Rfid no formato de chaveiro
 - Smartphone Android para uso do Aplicativo Desenvolvido
 ```
+**Desenho do circuito**
+
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_desenho.jpg)
+
+**Esquema Elétrico**
+
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_Esquem%C3%A1tico.jpg)
