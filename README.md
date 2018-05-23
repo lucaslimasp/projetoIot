@@ -40,3 +40,15 @@ Portanto, o modelo desenvolvido será o seguinte:
 **Esquema Elétrico**
 
 ![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_Esquem%C3%A1tico.jpg)
+
+**Documentação das Interfaces**
+Todo o aplicativo foi desenvolvido utilizando o site http://ai2.appinventor.mit.edu que possibilita a criação de aplicativos para Android via Browser(navegador de internet), de forma simplificada, apenas arrastando os ícones das telas, e toda a programação é feita através de blocos pré definidos de códigos.
+O projeto da aplicação desenvolvida está disponível neste repositório, com o nome app_inventor_projeto.aia, para abri-lo basta acessa o site, logar com seu usuário, e importar este arquivo.
+- Segue algumas imagens:
+
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_desenho.jpg)
+
+- Blocos de programação:
+
+
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_desenho.jpg)
