@@ -59,6 +59,9 @@ O projeto da aplicação desenvolvida está disponível neste repositório, com 
 
 Para comunicação entre Arduino e aplicativo, foi utilizado o módulo bluetooth Ht-06, que envia e recebe as interações do usuário via interações bluetooth.
 Toda informação recolhida pelo aplicativo a partir desta conexão, é armazenada em um banco de dados via FireBase.
+- Segue imagem do que é armazenado pelo FireBase:
+
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/firebase.png)
 
 **Código Arduino**
 Os códigos utilizados para programar o Arduino encontram se no arquivo codigo_arduino.ino, que possuem uma explicação simplificada de certas partes importantes do código.
