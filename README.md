@@ -46,9 +46,18 @@ Todo o aplicativo foi desenvolvido utilizando o site http://ai2.appinventor.mit.
 O projeto da aplicação desenvolvida está disponível neste repositório, com o nome app_inventor_projeto.aia, para abri-lo basta acessa o site, logar com seu usuário, e importar este arquivo.
 - Segue algumas imagens:
 
-![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_desenho.jpg)
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/appinventor.png)
 
 - Blocos de programação:
 
 
-![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/projeto_desenho.jpg)
+![Alt Text](https://github.com/lucaslimasp/projetoIot/blob/master/imagens/appinventor_blocos1.png)
+
+**Rede e hardware**
+
+Para comunicação entre Arduino e aplicativo, foi utilizado o módulo bluetooth Ht-06, que envia e recebe as interações do usuário via interações bluetooth.
+Toda informação recolhida pelo aplicativo a partir desta conexão, é armazenada em um banco de dados via FireBase.
+
+**Código Arduino**
+Os códigos utilizados para programar o Arduino encontram se no arquivo codigo_arduino.ino, que possuem uma explicação simplificada de certas partes importantes do código.
+
