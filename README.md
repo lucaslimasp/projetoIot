@@ -1,10 +1,10 @@
 # Projeto Objetos Inteligentes Conectados
 **Automação de pagamentos e pedidos de Restaurantes Self Service - Parte Inicial**
 
-##Objetivo
+**Objetivo**
 Passar informações de peso do prato do cliente de um restaurante self service, no qual o valor do peso, e o preço serão armazenados e associados a conta do usuário.
 
-##Como fazer? - Modelo Idealizado para meu TCC:
+**Como fazer? - Modelo Idealizado para meu TCC:**
 - O modelo a seguir tem como intenção ilustrar o objetivo final deste projeto, que será utilizado em meu TCC futuramente. Portanto, este modelo não será totalmente desenvolvido para a entrega do projeto na matéria de Objetos Inteligentes Conectados, devido à alta complexidade do mesmo, e a escassez de tempo.
 - Pegar o valor e o preço do prato, armazenar e associar a uma tag rfid colocada logo abaixo do prato do cliente. 
 - Durante a pesagem, para uma primeira experiencia do cliente, o mesmo deverá baixar um aplicativo, que irá solicitar que o mesmo habilite o bluetooth em seu celular. Feito isso será realizado a conexão com um modulo bluetooth Beacon BLE localizado próximo a balança, que irá atrelar os valores do prato com a conta do usuário. Um possível incremento será permitir que o as informações sejam passadas através do wifi do local, utilizando o aplicativo como intermediador de informações.
@@ -16,16 +16,15 @@ Desta forma, vamos supor o seguinte cenário:
 - Usuário 1 parte para mesa K enquanto que o usuário 2 parte para mesa J.
 - Ambas as mesas identificam os valores das tags abaixo dos pratos.
 - Beacon da mesa k identifica prato x na mesa graças a leitura da tag rfid. Este Beacon identifica então que embora durante a pesagem do prato x, houvessem os usuários 1 e 2, a leitura do valor do prato na verdade pertencia ao usuário 1, pois o mesmo ainda está com o prato x, e o seu smartphone permanece com ele.
-
-## Para esta matéria – O que será feito:
+```
+**Para esta matéria – O que será feito:**
 Conforme dito, devido à alta complexidade do modelo proposto, o projeto que será entregue para esta matéria será uma versão simplificada.
 Portanto, o modelo desenvolvido será o seguinte:
-```
 - Leitura de tag rfid - Atrelagem de valor simulado do peso do prato ao valor da tag. Não foi adquirido balança para a simulação pratica, portanto, o valor será feito a partir de simulação no código.
 - Conexão com modulo bluetooth – Não consegui adquirir um Beacon para o projeto, portanto improvisadamente o bluetooth da balança será feito com um modulo bluetooth ht-06. 
 - Será elaborado aplicação ou forma de comunicação com usuário a fim de atrelar o valor do prato com a conta do usuário e armazenar em banco de dados FireBase.
 
-## Componentes
+**Componentes**
 
 ```
 - Arduino - Utilizado Arduino Uno r3
@@ -33,4 +32,4 @@ Portanto, o modelo desenvolvido será o seguinte:
 - Leitor de Rfid Mfrc522 
 - Tag Rfid no formato de chaveiro
 - Smartphone Android para uso do Aplicativo Desenvolvido
-
+```
